@@ -53,32 +53,20 @@ export function Hero() {
           <div className="glass-panel overflow-hidden rounded-[2rem] p-5 sm:p-6">
             <div className="rounded-[1.75rem] border border-white/70 bg-[linear-gradient(180deg,#dff7ff_0%,#fef7ea_100%)] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.65)] sm:p-5">
               <div className="grid gap-4 sm:grid-cols-[1.15fr_0.85fr]">
-                <div className="rounded-[1.5rem] bg-[#12324a] p-5 text-white shadow-2xl">
-                  <div className="mb-8 flex items-center justify-between">
-                    <div>
-                      <p className="text-xs uppercase tracking-[0.28em] text-cyan-100/80">
-                        Zamar Field
-                      </p>
-                      <p className="mt-2 text-xl font-semibold">Map-first records</p>
+                <div className="relative flex items-center justify-center p-6 sm:min-h-[450px]">
+                  <div className="relative z-10 w-full max-w-[220px] sm:max-w-[240px] -rotate-2 transition-transform duration-700 hover:rotate-0 hover:scale-105">
+                    <div className="relative rounded-[2.25rem] border-[6px] border-slate-900 bg-slate-900 shadow-2xl ring-1 ring-white/20">
+                      <div className="absolute left-1/2 top-0 z-20 h-4 w-24 -translate-x-1/2 rounded-b-xl bg-slate-900" />
+                      
+                      <div className="relative aspect-[9/19.5] w-full overflow-hidden rounded-[1.8rem] bg-black">
+                        <img 
+                          src="/app-screenshot.jpeg" 
+                          alt="Zamar Field App Interface" 
+                          className="absolute inset-0 h-full w-full object-cover"
+                        />
+                      </div>
                     </div>
-                    <span className="rounded-full bg-cyan-400/20 px-3 py-1 text-xs font-semibold text-cyan-100">
-                      Open source
-                    </span>
-                  </div>
-
-                  <div className="relative h-56 overflow-hidden rounded-[1.25rem] border border-white/10 bg-[radial-gradient(circle_at_35%_35%,rgba(34,211,238,0.38),transparent_22%),linear-gradient(180deg,#113049_0%,#0f2537_100%)]">
-                    <div className="absolute inset-4 rounded-[1rem] border border-white/10" />
-                    <div className="absolute left-[14%] top-[18%] h-3 w-3 rounded-full bg-cyan-300 shadow-[0_0_0_8px_rgba(103,232,249,0.12)]" />
-                    <div className="absolute left-[57%] top-[46%] h-3 w-3 rounded-full bg-amber-200 shadow-[0_0_0_8px_rgba(254,215,170,0.12)]" />
-                    <div className="absolute left-[37%] top-[64%] h-3 w-3 rounded-full bg-cyan-200 shadow-[0_0_0_8px_rgba(165,243,252,0.12)]" />
-                    <div className="absolute left-[11%] top-[58%] h-14 w-28 rounded-[1.1rem] border border-white/8 bg-white/6 p-2 backdrop-blur-sm">
-                      <div className="h-2 w-14 rounded-full bg-white/35" />
-                      <div className="mt-2 h-2 w-20 rounded-full bg-white/20" />
-                      <div className="mt-2 h-10 rounded-xl bg-cyan-300/10" />
-                    </div>
-                    <div className="absolute right-[8%] top-[14%] h-18 w-28 rounded-[1.1rem] border border-white/8 bg-white/6 p-2 backdrop-blur-sm">
-                      <div className="h-16 rounded-xl bg-[linear-gradient(180deg,rgba(254,215,170,0.4),rgba(34,211,238,0.14))]" />
-                    </div>
+                    <div className="absolute -bottom-4 left-1/2 h-4 w-3/4 -translate-x-1/2 rounded-full bg-black/40 blur-md" />
                   </div>
                 </div>
 

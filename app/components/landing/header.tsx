@@ -6,9 +6,11 @@ export function Header() {
     <header className="sticky top-0 z-50 px-4 pt-4 sm:px-6">
       <div className="glass-panel mx-auto flex max-w-7xl items-center justify-between rounded-full px-4 py-3 sm:px-6">
         <Link to="/" className="focus-ring flex items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[var(--color-accent-soft)] text-sm font-bold text-[var(--color-accent-strong)]">
-            ZR
-          </span>
+          <img
+            src="/logo/palm-cyan.svg"
+            alt="Zamar Relief Logo"
+            className="h-10 w-10 object-contain"
+          />
           <div>
             <p className="text-sm font-semibold text-[var(--color-ink)]">
               Zamar Relief
