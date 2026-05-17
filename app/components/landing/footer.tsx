@@ -20,6 +20,9 @@ export function Footer() {
           <Link to="/terms" className="focus-ring hover:text-[var(--color-ink)]">
             Terms
           </Link>
+          <Link to="/attributions" className="focus-ring hover:text-[var(--color-ink)]">
+            Attributions
+          </Link>
           <a href="#zamar-field" className="focus-ring hover:text-[var(--color-ink)]">
             Zamar Field
           </a>
