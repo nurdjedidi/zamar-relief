@@ -12,6 +12,29 @@ export const heroStats = [
   { value: "Human centered", label: "Made to stay calm in real conditions" },
 ];
 
+export const contactChannels = [
+  {
+    label: "LinkedIn",
+    value: "Professional updates",
+    detail: "For public presence, partnerships, and initiative news.",
+    href: "https://www.linkedin.com/in/zamar-relief",
+    rel: "me noopener noreferrer",
+  },
+  {
+    label: "Mail",
+    value: "Direct contact",
+    detail: "For collaboration, questions, and follow-up.",
+    href: "mailto:djedidinur@gmail.com",
+  },
+  {
+    label: "WhatsApp",
+    value: "Quick reach-out",
+    detail: "For lighter conversations when the public line is ready.",
+    href: "https://wa.me/+33698947687",
+    rel: "noopener noreferrer",
+  },
+];
+
 export const reasons = [
   {
     title: "Built for real terrain",
@@ -53,7 +76,7 @@ export const fieldFeatures = [
   "Automatic GPS positioning when location is available",
   "Photo, video, and interview-friendly media collection",
   "Map view for reviewing entries in place",
-  "Editable records for correction and follow-up",
+  "Editable records for co/rrection and follow-up",
   "A product direction shaped by open-source transparency",
 ];
 
