@@ -1,5 +1,10 @@
 # Zamar Web
 
+![React Router](https://img.shields.io/badge/React%20Router-7-ca4245?style=for-the-badge&logo=reactrouter&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06b6d4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-animated-7c3aed?style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-2563eb?style=for-the-badge&logo=typescript&logoColor=white)
+
 Zamar Web is the public website for the Zamar Relief initiative.
 
 It presents the broader humanitarian project, introduces Zamar Field, and provides simple public-facing pages such as privacy and terms.
@@ -15,6 +20,16 @@ It is meant to:
 - provide a calm, trustworthy public presence
 - host essential public information pages
 
+## Experience Direction
+
+The site is designed to feel:
+
+- calm
+- bright
+- trustworthy
+- human-first
+- modern without being loud
+
 ## Stack
 
 - React Router
@@ -23,6 +38,13 @@ It is meant to:
 - Tailwind CSS
 - Framer Motion
 - Vite
+
+## Quick Start
+
+```bash
+npm install
+npm run dev
+```
 
 ## Scripts
 
