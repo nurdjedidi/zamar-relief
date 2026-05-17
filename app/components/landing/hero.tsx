@@ -13,7 +13,7 @@ export function Hero() {
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border)] bg-white/80 px-4 py-2 text-sm text-[var(--color-muted)]">
             <span className="h-2 w-2 rounded-full bg-[var(--color-accent)]" />
-            Calm digital tools for real humanitarian field work
+            Digital tools for real humanitarian field work
           </div>
 
           <div className="space-y-6">

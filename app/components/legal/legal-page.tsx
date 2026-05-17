@@ -25,7 +25,7 @@ export function LegalPage({
               <p className="section-kicker">Zamar Relief</p>
               <h1 className="section-title">{title}</h1>
               <p className="section-copy">
-                A calm legal baseline for an initiative in progress and its
+                A legal baseline for an initiative in progress and its
                 open-source field project.
               </p>
             </div>
