@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { steps } from "./content";
 import { SectionHeading } from "./section-heading";
 
@@ -14,13 +13,9 @@ export function HowItWorksSection() {
 
         <div className="space-y-4">
           {steps.map((item, index) => (
-            <motion.div
+            <div
               key={item.title}
-              initial={{ opacity: 0, x: 24 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, amount: 0.35 }}
-              transition={{ duration: 0.55, delay: index * 0.1, ease: "easeOut" }}
-              className="glass-panel rounded-[1.8rem] p-5 sm:p-6"
+              className="glass-panel hover-card rounded-[1.8rem] p-5 sm:p-6"
             >
               <div className="flex flex-col gap-4 sm:flex-row sm:items-start">
                 <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[var(--color-ink)] text-sm font-semibold text-white">
@@ -35,7 +30,7 @@ export function HowItWorksSection() {
                   </p>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>

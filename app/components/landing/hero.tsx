@@ -1,16 +1,10 @@
-import { motion } from "framer-motion";
 import { heroStats } from "./content";
 
 export function Hero() {
   return (
     <section className="section-shell relative pt-10 pb-14 sm:pt-18 sm:pb-22">
       <div className="grid items-center gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:gap-10">
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
-          className="space-y-6 sm:space-y-8"
-        >
+        <div className="space-y-6 sm:space-y-8">
           <div className="inline-flex items-center gap-2 rounded-full border border-[var(--color-border)] bg-white/80 px-3 py-2 text-xs text-[var(--color-muted)] sm:px-4 sm:text-sm">
             <span className="h-2 w-2 rounded-full bg-[var(--color-accent)]" />
             Tools for field work
@@ -63,14 +57,9 @@ export function Hero() {
             <span className="inline-block h-2.5 w-2.5 rounded-full bg-[var(--color-accent)]" />
             Built around people, field realities, and open collaboration.
           </div>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0, scale: 0.96 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, ease: "easeOut", delay: 0.15 }}
-          className="relative"
-        >
+        <div className="relative">
           <div className="glass-panel overflow-hidden rounded-[2rem] p-4 sm:p-6">
             <div className="rounded-[1.75rem] border border-white/70 bg-[linear-gradient(180deg,#dff7ff_0%,#fef7ea_100%)] p-4 shadow-[inset_0_1px_0_rgba(255,255,255,0.65)] sm:p-5">
               <div className="grid gap-4 lg:grid-cols-[1.15fr_0.85fr]">
@@ -109,7 +98,7 @@ export function Hero() {
               </div>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

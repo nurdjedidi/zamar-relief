@@ -98,6 +98,15 @@ export const openSourcePrinciples = [
   },
 ];
 
+export const fieldRelease = {
+  label: "Android app available",
+  title: "Install Zamar Field from Google Play.",
+  body:
+    "Teams, partners, and early users can access the public Android release directly from the Play Store.",
+  href: "https://play.google.com/store/apps/details?id=com.nur_djedd.zamarfield",
+  cta: "Open on Google Play",
+};
+
 export const faqs = [
   {
     question: "Is Zamar Relief already a formally registered NGO?",

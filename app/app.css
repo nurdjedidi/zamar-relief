@@ -62,9 +62,26 @@ summary {
 
 .glass-panel {
   background: var(--color-panel);
-  backdrop-filter: blur(22px);
+  backdrop-filter: blur(10px);
   border: 1px solid var(--color-border);
   box-shadow: var(--shadow-card);
+}
+
+.hover-card {
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease;
+  transform: translateY(0);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .hover-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(27, 92, 133, 0.3);
+    box-shadow: 0 20px 46px rgba(34, 103, 141, 0.16);
+  }
 }
 
 .section-shell {
@@ -134,5 +151,11 @@ summary {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .glass-panel {
+    backdrop-filter: none;
   }
 }
